@@ -1,12 +1,12 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/39f2a673bff737af.js"
+    "static/chunks/8bfcb79c8be372eb.js"
   ],
   "/_error": [
-    "static/chunks/094baba57a07ac9b.js"
+    "static/chunks/075bda12997285e4.js"
   ],
   "/projects/ga-image-compression": [
-    "static/chunks/a04c1528bec3f987.js"
+    "static/chunks/db1af14949769cd0.js"
   ],
   "/projects/web-development": [
     "static/chunks/3904fe36264f966e.js"
