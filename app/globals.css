@@ -3,12 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 0, 0, 0;
+  --background: 10 25 47; /* The "Amr Khaled" Navy Blue */
+  --foreground: 204 214 246; /* Off-white text */
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  color: rgb(var(--foreground));
+  background: #0a192f;
+  font-family: -apple-system, system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
 }
